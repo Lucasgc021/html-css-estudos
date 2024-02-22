@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+
+
+
+
+ul, li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 50px;
+    font-size: 16px;
+    
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 16px; 
+    margin-left: 300px;
+    margin-right: 300px;  
+}
+nav h1 img{
+    width: 25px;
+    height: 25px;
+    
+}
+nav h1{
+    color: rgb(53, 61, 77);
+    word-spacing: 2px;
+    font-size: 25px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 8px;
+    
+}
+nav ul li{
+    color: rgb(0, 0, 0);
+    
+    
+    
+}
+ header{
+    color: rgb(53, 61, 77);
+    margin-left: 315px;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+    
+}
+
+header{
+    margin-top: 150px;
+}
+ h1 span{
+    font-size: 50px;
+}
+.buttonDownload {
+    display: inline-block;
+    position: relative;
+    padding: 10px 25px;
+    background-color:rgb(53, 61, 77);
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+    text-indent: 15px;
+    border: none;
+   }
+   
+   .buttonDownload:hover {
+    background-color: #45a21a;
+    color: white;
+   }
+   
+   .buttonDownload:before, .buttonDownload:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 52%;
+   }
+   
+   .buttonDownload:before {
+    width: 10px;
+    height: 2px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+   }
+   
+   .buttonDownload:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: transparent;
+    border-top-color: inherit;
+    animation: downloadArrow 1s linear infinite;
+    animation-play-state: paused;
+   }
+   
+   .buttonDownload:hover:before {
+    border-color: #cdefbd;
+   }
+   
+   .buttonDownload:hover:after {
+    border-top-color: #cdefbd;
+    animation-play-state: running;
+   }
+   
+   @keyframes downloadArrow {
+    0% {
+     margin-top: -7px;
+     opacity: 1;
+    }
+   
+    0.001% {
+     margin-top: -15px;
+     opacity: 0.4;
+    }
+   
+    50% {
+     opacity: 1;
+    }
+   
+    100% {
+     margin-top: 0;
+     opacity: 0.4;
+    }
+   }
+   aside img{
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin: -300px 650px;
+    
+   }
+  
+   
+   div img{
+    width: 35px;
+    height: 35px;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 0px;
+   }
+
+
+
+
